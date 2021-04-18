@@ -545,8 +545,12 @@ aside {
     position: relative;
     left: 600px;
     bottom: 209.50px;
+    width: 526px;
 }
-.form-textarea textarea {resize: none;}
+.form-textarea textarea {
+    resize: none;
+    outline: none;
+}
 .contact-form input, textarea {
     width: 526px;
     border: none;
